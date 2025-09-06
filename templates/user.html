@@ -1,0 +1,10 @@
+{% extends "base_template.html" %}
+
+{% block page_content %}
+
+{{ super() }}
+<h1>Olá, {{ user_name }}!</h1>
+<hr>
+<h2>Prontuário: {{ pt }}</h2>
+<h2>Instituição: {{ institution }}</h2>
+{% endblock %}
